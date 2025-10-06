@@ -26,12 +26,12 @@
 <main class="container py-5">
     <div class="text-center">
         <h1 class="display-6 mb-3">
-            Bienvenue <span th:text="${username}"></span>
+            Bienvenue <b th:text="${username}"></b>
         </h1>
         <p class="text-muted mb-4">Cliquez sur le bouton ci dessous pour voir mes tâches</p>
         <a class="btn btn-primary btn-lg" th:href="@{/tasks}">Mes tâches</a>
-        <br>
-        <p class="text-muted mb-4">Heureusement que bootstrap existe !</p>
+        <p class="text-muted mb-4 mt-5">Heureusement que bootstrap existe !</p>
+        <p class="text-muted small">(ça serait bien moche sinon)</p>
     </div>
 </main>
 
